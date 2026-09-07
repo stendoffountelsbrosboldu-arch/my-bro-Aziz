@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serve</title>
+</head>
+<body>
+  <div class="animation">
+     <div></div>
+  </div>
+  
+<div class="page">
+
+    <!-- Husky -->
+    <div class="husky">
+
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+
+        <div class="head">
+
+            <div class="white-face"></div>
+
+            <div class="eye left-eye">
+                <span></span>
+            </div>
+
+            <div class="eye right-eye">
+                <span></span>
+            </div>
+
+            <div class="nose"></div>
+
+            <div class="mouth">
+                <div class="mouth-line"></div>
+            </div>
+
+            <div class="cheek left-cheek"></div>
+            <div class="cheek right-cheek"></div>
+
+            <div class="spot"></div>
+
+        </div>
+
+        <div class="body">
+            <div class="belly"></div>
+        </div>
+
+    </div>
+
+
+    <!-- Login card -->
+    <div class="login-card">
+
+        <h1>Den</h1>
+
+        <p class="welcome">
+            Welcome back. Your husky's keeping watch.
+        </p>
+
+        <form id="loginForm">
+
+            <!-- Username -->
+            <div class="input-box">
+                <label>Username</label>
+                <input
+                    type="text"
+                    id="username"
+                    value="frostpup"
+                    autocomplete="username"
+                >
+            </div>
+
+            <!-- Password -->
+            <div class="input-box password-box">
+                <label>Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    value="12345678"
+                    autocomplete="current-password"
+                >
+
+                <button
+                    type="button"
+                    class="eye-button"
+                    id="showPassword"
+                >
+                    👁️
+                </button>
+            </div>
+
+
+            <!-- Remember / Forgot -->
+            <div class="options">
+
+                <label class="remember">
+                    <input type="checkbox">
+                    <span class="check"></span>
+                    Remember me
+                </label>
+
+                <a href="#" id="forgot">
+                    Forgot password?
+                </a>
+
+            </div>
+
+
+            <!-- Sign in -->
+            <button type="submit" class="sign-in">
+
+                <span>Sign in</span>
+
+                <div class="door">
+                    <div class="person"></div>
+                </div>
+
+            </button>
+
+        </form>
+
+
+        <!-- Divider -->
+        <div class="divider">
+            <span></span>
+            <p>or continue with</p>
+            <span></span>
+        </div>
+
+
+        <!-- Social -->
+        <div class="social-buttons">
+
+            <button class="social google">
+                <b>G</b>
+                Google
+            </button>
+
+            <button class="social apple">
+                <b>●</b>
+                Apple
+            </button>
+
+        </div>
+
+
+        <!-- Register -->
+        <div class="register">
+            New to Den?
+            <a href="#" id="createAccount">
+                Create account
+            </a>
+        </div>
+
+    </div>
+
+</div>
+    <link rel="stylesheet" href="/style.css">
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
